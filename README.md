@@ -34,6 +34,22 @@
 - 错误处理和调试
 - 真实应用场景
 
+### 🎯 [OpenAI硬核面试题集](OpenAI-Interview-Questions.md)
+- 算法与数据结构（30%）
+- 机器学习理论（25%）
+- 深度学习架构（20%）
+- 系统设计与分布式计算（15%）
+- 数学与统计（10%）
+- 包含完整实现代码和评分标准
+
+### 🏗️ [CAMEL框架深度面试题与答案](CAMEL-Framework-Interview.md)
+- 架构设计与原理（30%）
+- 核心组件实现（25%）
+- 性能优化与调优（20%）
+- 扩展开发与定制（15%）
+- 故障诊断与调试（10%）
+- 6道深度技术面试题，包含完整代码实现
+
 ## 🚀 快速开始
 
 ### 环境配置
@@ -218,6 +234,40 @@ print(response.msgs[0].content)
 3. **查看API参考**：掌握接口使用方法
 4. **运行示例代码**：通过实践加深理解
 5. **构建自己的应用**：基于最佳实践开发
+
+## 📚 学习路径
+
+### 入门路径
+1. 📖 [架构概览](docs/architecture-overview.md) → 理解框架设计理念
+2. 🔧 [核心组件详解](docs/core-components-detailed.md) → 掌握模块功能
+3. 💡 [使用示例和最佳实践](docs/usage-examples-and-best-practices.md) → 动手实践
+
+### 进阶路径
+1. 📖 [API参考](docs/api-reference.md) → 深入接口细节
+2. 🎯 [OpenAI硬核面试题集](OpenAI-Interview-Questions.md) → 提升算法和系统设计能力
+3. 🏗️ [CAMEL框架深度面试题与答案](CAMEL-Framework-Interview.md) → 掌握框架高级应用
+
+### 专家路径
+1. 深度理解面试题中的架构设计
+2. 实现面试题中的高性能系统
+3. 构建自己的多智能体应用
+4. 参与开源贡献和社区讨论
+
+## 📁 文件结构
+
+```
+camel-learning/
+├── README.md                          # 项目说明文档
+├── OpenAI-Interview-Questions.md      # OpenAI硬核面试题集
+├── CAMEL-Framework-Interview.md       # CAMEL框架深度面试题与答案
+├── docs/                              # 文档目录
+│   ├── architecture-overview.md       # 架构概览
+│   ├── core-components-detailed.md    # 核心组件详解
+│   ├── api-reference.md               # API参考
+│   └── usage-examples-and-best-practices.md  # 使用示例和最佳实践
+├── examples/                          # 示例代码
+└── camel/                             # CAMEL框架源码
+```
 
 ## 📝 贡献指南
 
